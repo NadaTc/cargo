@@ -1,0 +1,4 @@
+services:
+#    saif_car.example:
+#        class: Saif\CarBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

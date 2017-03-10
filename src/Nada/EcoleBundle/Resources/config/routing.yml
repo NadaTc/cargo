@@ -1,0 +1,12 @@
+nada_ecole_homepage:
+    path:     /
+    defaults: { _controller: NadaEcoleBundle:Default:index }
+nada_ecole_cours:
+    path:     /affichecours
+    defaults: { _controller: NadaEcoleBundle:Cours:AfficheCours }
+nada_ecole_coursAdmin:
+    path:     /admincours
+    defaults: { _controller: NadaEcoleBundle:Cours:AfficheCoursAdmin }
+nada_ecole_ca:
+    path:     /ac
+    defaults: { _controller: NadaEcoleBundle:Cours:ADmin }

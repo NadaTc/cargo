@@ -1,0 +1,38 @@
+rami_permis:
+    resource: "@RamiPermisBundle/Resources/config/routing.yml"
+    prefix:   /
+
+wissem_candidat:
+    resource: "@WissemCandidatBundle/Resources/config/routing.yml"
+    prefix:   /
+
+yacine_news:
+    resource: "@YacineNewsBundle/Resources/config/routing.yml"
+    prefix:   /
+
+saif_car:
+    resource: "@SaifCarBundle/Resources/config/routing.yml"
+    prefix:   /
+
+farah_chat:
+    resource: "@FarahChatBundle/Resources/config/routing.yml"
+    prefix:   /
+
+nada_ecole:
+    resource: "@NadaEcoleBundle/Resources/config/routing.yml"
+    prefix:   /
+
+data:
+    resource: "@DataBundle/Resources/config/routing.yml"
+    prefix:   /
+
+user:
+    resource: "@userBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"

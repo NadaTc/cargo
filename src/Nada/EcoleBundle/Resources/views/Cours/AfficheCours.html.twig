@@ -1,0 +1,44 @@
+{% extends "NadaEcoleBundle::about.html.twig" %}
+
+{% block stylsheet %}
+
+
+     <link rel="stylesheet" href=" {{ asset('css/custom.css') }}" type="text/css" > {% endblock %}
+    {% block stylsheet2 %}
+        <link rel="stylesheet" href=" {{ asset('css/bootstrap.css') }}" type="text/css"> {% endblock %}
+    {% block stylsheet3 %}
+        <link rel="stylesheet" href="{{ asset('css/theme-color.css') }}" type="text/css">{% endblock %}
+    {% block stylsheet4 %}
+        <link rel="stylesheet" href="{{ asset('css/responsive.css') }}" type="text/css">{% endblock %}
+    {% block stylsheet5 %}
+        <link rel="stylesheet" href="{{ asset('css/owl.carousel.css') }}" type="text/css">{% endblock %}
+    {% block stylsheet6 %}
+        <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}" type="text/css">{% endblock %}
+    {% block stylsheet7 %}
+        <link rel="stylesheet" href="{{ asset('css/icomoon.css') }}" type="text/css">
+    {% endblock %}
+    {% block stylsheet8 %}
+        <link href='https://fonts.googleapis.com/css?family=Exo+2:400,300,600,700,900,800,200,100,500,400italic' rel='stylesheet' type='text/css'> {% endblock %}
+
+{% block content %}
+
+<table border="1" align="center" style="width: 50%">
+
+
+
+    <th style="color: #dd6666" >titre cours</th>
+    <th style="color: #dd6666">contenu cours</th>
+
+    {% for c in cours %}
+        <tr>
+            <td> {{ c.titreCours }} </td>
+            <td> {{ c.contenuCours }} </td>
+
+
+
+        </tr>
+    {% endfor %}
+
+</table>
+
+{% endblock %}

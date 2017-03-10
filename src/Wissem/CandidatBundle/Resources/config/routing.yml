@@ -1,0 +1,3 @@
+wissem_candidat_homepage:
+    path:     /
+    defaults: { _controller: WissemCandidatBundle:Default:index }

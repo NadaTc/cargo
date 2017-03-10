@@ -1,0 +1,3 @@
+farah_chat_homepage:
+    path:     /
+    defaults: { _controller: FarahChatBundle:Default:index }

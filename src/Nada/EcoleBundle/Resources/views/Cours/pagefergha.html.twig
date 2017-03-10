@@ -1,0 +1,22 @@
+{% extends "NadaEcoleBundle::blanck.html.twig" %}
+
+{% block a %}
+    <table border="1" align="center" style="width: 50%">
+
+
+
+        <th style="color: #dd6666" >titre cours</th>
+        <th style="color: #dd6666">contenu cours</th>
+
+        {% for c in cours %}
+            <tr>
+                <td> {{ c.titreCours }} </td>
+                <td> {{ c.contenuCours }} </td>
+
+
+
+            </tr>
+        {% endfor %}
+
+    </table>
+{% endblock %}

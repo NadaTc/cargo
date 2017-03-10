@@ -1,0 +1,4 @@
+services:
+#    nada_ecole.example:
+#        class: Nada\EcoleBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

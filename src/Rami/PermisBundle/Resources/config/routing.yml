@@ -1,0 +1,3 @@
+rami_permis_homepage:
+    path:     /
+    defaults: { _controller: RamiPermisBundle:Default:index }

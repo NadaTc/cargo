@@ -1,0 +1,3 @@
+saif_car_homepage:
+    path:     /
+    defaults: { _controller: SaifCarBundle:Default:index }
